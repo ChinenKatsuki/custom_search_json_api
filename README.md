@@ -1,2 +1,11 @@
-下記のパスから検索が可能
-CustomSearchJsonAPI/views/Search.php
+CustomSearchJsonAPIアプリケーションでは、Custom Search JSON APIを使用してGoogle検索を行います。
+以下の手順に従って、検索を行い、結果を表示してください。
+
+1. CustomSearchJsonAPI/views/Search.phpにアクセスして、検索ワードを入力してください。
+
+2. 検索ボタンをクリックすると、CustomSearchApiクラスが呼び出され、Google検索が実行されます。
+
+3. 検索結果はCustomSearchJsonAPI/index.phpで表示されます。結果が表示されない場合は、検索が失敗している可能性があります。
+また、CustomSearchJsonAPI/views/SearchResult.phpファイルで検索結果の表示方法を変更することができます。検索結果をカスタマイズする場合は、このファイルを編集してください。
+
+最後に、CustomSearchJsonAPI/.envファイルでAPIキーと検索エンジンIDを設定することができます。これらの値を正しく設定していない場合、検索が失敗することがあります。
