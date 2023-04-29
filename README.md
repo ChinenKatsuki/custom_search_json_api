@@ -1,0 +1,2 @@
+下記のパスから検索が可能
+CustomSearchJsonAPI/views/Search.php
