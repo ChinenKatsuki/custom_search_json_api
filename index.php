@@ -11,5 +11,5 @@ if (empty($search_term)) {
     $results = $custom_search_api->getSearchResults($search_term);
 }
 
-
 require 'views/SearchResult.php';
+?>
